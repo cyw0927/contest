@@ -1,71 +1,62 @@
 1
-00:00:00,500 --> 00:00:04,000
-2036. Every day, we press the same button.
+00:00:00,400 --> 00:00:04,600
+2036. They both use AI.
 
 2
-00:00:04,200 --> 00:00:07,500
-I agree.
+00:00:10,400 --> 00:00:14,600
+Same question. Same result.
 
 3
-00:00:08,500 --> 00:00:13,500
-But the same tool does not mean
-the same possibilities.
+00:00:15,400 --> 00:00:19,600
+But what happens next is different.
 
 4
-00:00:20,500 --> 00:00:24,000
-The languages we can speak.
+00:00:20,400 --> 00:00:24,600
+One person can carry on.
 
 5
-00:00:24,200 --> 00:00:27,500
-The work we can take with us.
+00:00:25,400 --> 00:00:29,600
+The other's work stops at a boundary.
 
 6
-00:00:27,700 --> 00:00:31,500
-The next system we can choose.
+00:00:30,400 --> 00:00:34,600
+In classrooms.
 
 7
-00:00:32,500 --> 00:00:38,000
-These terms reach beyond
-one person's screen.
+00:00:35,400 --> 00:00:39,600
+In hospitals.
 
 8
-00:00:38,200 --> 00:00:45,500
-They shape the choices of schools,
-hospitals, and entire societies.
+00:00:40,400 --> 00:00:44,600
+In businesses and city services.
 
 9
-00:00:46,500 --> 00:00:49,500
-We began to ask:
+00:00:45,400 --> 00:00:49,600
+One change in terms can limit a nation's
+choices.
 
 10
-00:00:49,700 --> 00:00:55,500
-Could we change these terms, too?
+00:00:50,400 --> 00:00:54,600
+2026. We start building a way to leave.
 
 11
-00:00:56,500 --> 00:01:02,000
-Learning in our own languages.
-
-12
-00:01:02,200 --> 00:01:07,500
-Sharing what we learn.
-
-13
-00:01:08,500 --> 00:01:13,500
+00:00:55,400 --> 00:00:59,600
 Taking our work with us.
 
+12
+00:01:00,400 --> 00:01:04,600
+So we can continue somewhere else.
+
+13
+00:01:05,400 --> 00:01:09,600
+We improve it in our languages, and
+share it.
+
 14
-00:01:13,700 --> 00:01:19,500
-Choosing another path.
+00:01:10,400 --> 00:01:14,600
+We build together, while respecting data
+permissions.
 
 15
-00:01:20,500 --> 00:01:25,500
-Respecting each other's data.
-
-16
-00:01:25,700 --> 00:01:31,500
-Building together.
-
-17
-00:01:32,000 --> 00:01:37,000
-The terms of tomorrow begin
-with the connections we build today.
+00:01:15,400 --> 00:01:19,600
+2036. Now, we can choose another path.

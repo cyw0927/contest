@@ -1,16 +1,111 @@
-# 영상 프롬프트 v0.1
+# 영상 생성 프롬프트 v1.0
 
-공통: 확정 키프레임을 기준으로 짧은 클립 생성. 얼굴·손·의상·장소 일관성을 확인합니다. UI와 글자는 후반 합성합니다. 도구별 프롬프트 형식은 선택 후 조정합니다.
+캐릭터 시트 입력이 필수. 2026 샷은 같은 인물의 더 어린 기준 시트 파생이 선행되어야 한다. 정확한 UI·문구·자막은 후편집한다. 각 영상은 최대 5초.
 
-| 장면 | 동작 프롬프트 초안 |
-| --- | --- |
-| S01 | Slow controlled push-in. The young adult taps once on the laptop trackpad, then looks at the screen. Preserve identity and desk layout. |
-| S02–S03 | The young adult types a short question, waits, and pauses with a thoughtful expression. Minimal movement, stable framing. |
-| S04 | A young professional notices a paused service on a monitor and turns to a colleague to review another system. Calm, grounded behavior. |
-| S05 | The young adult stops clicking, reads the screen, then looks toward the camera. Quiet determination, no exaggerated acting. |
-| S06 | Two collaborators review a language resource, correct an entry, and share the result. Show hands and a brief reaction, no generated text. |
-| S07 | A young creator switches between two neutral workstations and continues the same task. Keep the physical action simple; data transfer added in editing. |
-| S08 | Collaborators in separate rooms acknowledge a successful shared update. Restrained hopeful expressions, realistic lighting. |
-| S09 | 후반 편집에서 경계선→연결선 모션과 질문·제목 제작. 생성 클립 불필요 |
+## S01 · ACT 1 · 2036 · A+B
 
-S04는 공간별 클립을 연결합니다. S06–S08은 손·화면·표정 컷으로 분해하여 한 클립에 복잡한 동작을 요구하지 않습니다.
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Very subtle push-in, each person looks down at the laptop, otherwise still. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S02 · ACT 1 · 2036 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. One light trackpad tap, locked camera, no typing. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S03 · ACT 1 · 2036 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Stable over-shoulder frame, only a small breath movement. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S04 · ACT 2 · 2036 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Both subjects lightly move the hand toward the trackpad, no dramatic expression. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S05 · ACT 2 · 2036 · A
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Subtle rack focus from shoulder to screen edge, no screen content changes generated. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S06 · ACT 2 · 2036 · B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Character pauses, small eye movement, no frustration pantomime. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S07 · ACT 3 · 2036 · A
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. A looks at the laptop then toward an empty classroom board, small movement. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S08 · ACT 3 · 2036 · B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. B waits calmly at the reception counter, camera locked. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S09 · ACT 3 · 2036 · B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Slow slight push-in, B holds still while looking at the display. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S10 · ACT 3 · 2036 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Both protagonists look at the neutral monitor, minimal motion, stable two-shot. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S11 · ACT 4 · 2026 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. B makes one light trackpad tap, A watches, very subtle push-in. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S12 · ACT 4 · 2026 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Nearly static tabletop shot, one small hand movement, no generated screen content. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S13 · ACT 4 · 2026 · B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. B lightly taps the trackpad once and gives a restrained nod. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S14 · ACT 4 · 2026 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. A quietly speaks one short phrase while B listens, fixed camera, no big gesture. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S15 · ACT 4 · 2026 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Two separate steady medium shots, each character gives one small nod. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S16 · ACT 5 · 2036 · A+B
+
+실행 전 프롬프트:
+
+> Image-to-video, exactly 5 seconds maximum. Same minimal gesture as opening, subtle breath, locked framing. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S17 · ACT 5 · 2036 · A+B
+
+S17/S18은 승인 플레이트 재사용. 새 생성 없이 아래 지시를 편집 기준으로 사용.
+
+> Image-to-video, exactly 5 seconds maximum. Reuse previous approved plate with tiny post-production push-in; no new AI generation needed. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
+
+## S18 · ACT 5 · 2036 · A+B
+
+S17/S18은 승인 플레이트 재사용. 새 생성 없이 아래 지시를 편집 기준으로 사용.
+
+> Image-to-video, exactly 5 seconds maximum. No new AI generation. Use approved still, fade the background and composite exact typography. Preserve identity, wardrobe, room layout, laptop geometry. No new objects, no legible text, no UI animation generated; all interfaces are added in editing.
