@@ -1,0 +1,28 @@
+# 시스템·에디터 임시 파일
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+~$*
+.env
+.env.*
+!.env.example
+
+# 재생성 가능한 캐시와 로컬 작업 파일
+__pycache__/
+.cache/
+*.prproj
+*.aep
+*.drp
+
+# 대형 제작 파일은 외부 보관 후 목록으로 관리
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.wav
+*.mp3
+*.flac
+*.psd
+*.zip
