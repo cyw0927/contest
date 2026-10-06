@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+<defs><g id="learning-card"><rect width="78" height="100" rx="6" fill="#E6E4DE"/><path d="M58 0H78V20Z" fill="#C67567"/><path d="M16 34H60M16 51H60M16 68H51" stroke="#8E9697" stroke-width="3"/></g>
+<g id="open-gate"><path d="M0 0V90M0 210V300" stroke="#98B4A7" stroke-width="7"/></g>
+<g id="closed-gate"><path d="M0 0V300" stroke="#E6E4DE" stroke-width="7"/></g>
+<g id="permission-lock"><rect x="-18" y="0" width="36" height="28" rx="4" fill="#252B2F" stroke="#C67567" stroke-width="3"/><path d="M-12 0V-10A12 12 0 0 1 12 -10V0" fill="none" stroke="#C67567" stroke-width="3"/></g>
+<g id="classroom"><path d="M0 20H75V70H0ZM15 70V88M60 70V88" fill="none" stroke="#E6E4DE" stroke-width="4"/></g>
+<g id="hospital"><path d="M25 0H50V25H75V50H50V75H25V50H0V25H25Z" fill="none" stroke="#E6E4DE" stroke-width="4"/></g>
+<g id="business"><path d="M0 25H75V75H0ZM25 25V8H50V25" fill="none" stroke="#E6E4DE" stroke-width="4"/></g>
+<g id="public-service"><path d="M0 25L38 0L75 25ZM10 30V75M38 30V75M65 30V75M0 80H75" fill="none" stroke="#E6E4DE" stroke-width="4"/></g></defs>
+<rect width="1920" height="1080" fill="#252B2F"/>
+<use href="#learning-card" x="180" y="490"/><use href="#open-gate" x="500" y="390"/><use href="#learning-card" x="700" y="490"/>
+<use href="#closed-gate" x="1420" y="390"/><use href="#permission-lock" x="1420" y="540"/><use href="#learning-card" x="1240" y="490"/>
+<use href="#classroom" x="150" y="180"/><use href="#hospital" x="450" y="180"/><use href="#business" x="750" y="180"/><use href="#public-service" x="1050" y="180"/>
+</svg>

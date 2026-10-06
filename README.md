@@ -6,7 +6,7 @@
 
 | 연도 | 공모전 | 작품 | 상태 | 마감 |
 | --- | --- | --- | --- | --- |
-| 2026 | [외교부 제2회 KOREAZ 콘텐츠 공모전](contests/2026-koreaz-2/README.md) | 2036: TERMS & CONDITIONS | 기획 및 제작 초안 | 2026-10-25 |
+| 2026 | [외교부 제2회 KOREAZ 콘텐츠 공모전](contests/2026-koreaz-2/README.md) | 2036: TERMS & CONDITIONS | 90초 제작 설계·비주얼 검증 | 2026-10-25 |
 
 ## 구조
 

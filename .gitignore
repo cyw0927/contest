@@ -26,3 +26,9 @@ __pycache__/
 *.flac
 *.psd
 *.zip
+
+# 사용자 지침: 폰트 바이너리 제외
+*.ttf
+*.otf
+*.woff
+*.woff2

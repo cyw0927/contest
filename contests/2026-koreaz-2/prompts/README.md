@@ -1,9 +1,8 @@
-# 생성 프롬프트
+# 프롬프트
 
-상태: 실행 전 초안. 실제 생성은 아직 하지 않았습니다.
+- [image_prompts.md](image_prompts.md): 요청한 image-prompts.md에 해당, 기존 이름 유지
+- [video_prompts.md](video_prompts.md): 요청한 video-prompts.md에 해당, 기존 이름 유지
+- [audio_prompts.md](audio_prompts.md): 음악·내레이션 방향
+- [visual-tests.md](visual-tests.md): 실제 실행한 캐릭터·핵심 장면 테스트 프롬프트
 
-- [이미지](image_prompts.md): 인물·공간 기준과 키프레임
-- [영상](video_prompts.md): 장면별 동작
-- [음성·음악](audio_prompts.md): 목소리와 음악 방향
-
-실행할 때 장면 ID, 도구·모델 버전, 생성일, 시드(지원 시), 기준 이미지, 실제 프롬프트, 결과 파일명과 채택 여부를 기록하세요. 생성한 UI 글자는 사용하지 않고 편집에서 합성합니다.
+샷별 프롬프트는 [스토리보드](../docs/storyboard.md)와 [timeline.json](../production/timeline.json)에서 같은 내용으로 관리한다. 실제 생성 도구·모델·시드·입력 참조·생성일·파일명·결과를 에셋 목록에 기록한다. 기능이 없는 영상 생성 도구를 사용한 것으로 기록하지 않는다.
