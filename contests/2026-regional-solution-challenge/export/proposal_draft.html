@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>지역 현안 해결 아이디어 제안서</title>
+<style>
+  @page { size: A4; margin: 13mm 15mm 12mm 15mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Malgun Gothic", "맑은 고딕", sans-serif; font-size: 9.4pt; line-height: 1.52; color: #111; margin: 0; }
+  .page { page-break-after: always; height: 270mm; overflow: hidden; position: relative; }
+  .page:last-child { page-break-after: auto; }
+  .tag { font-size: 8.5pt; color: #444; text-align: right; margin-bottom: 2mm; }
+  h1 { text-align: center; font-size: 19pt; margin: 2mm 0 5mm; letter-spacing: 1px; border-top: 2.5px solid #1f3a5f; border-bottom: 2.5px solid #1f3a5f; padding: 3mm 0; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border: 1px solid #555; padding: 1.8mm 2.4mm; vertical-align: middle; }
+  th { background: #e9edf3; font-weight: bold; text-align: center; white-space: nowrap; }
+  .sec-title { background: #1f3a5f; color: #fff; font-weight: bold; padding: 1.6mm 3mm; font-size: 10.5pt; margin: 0 0 2.5mm; }
+  .sub { font-weight: bold; color: #1f3a5f; margin: 3mm 0 1mm; font-size: 9.8pt; }
+  p { margin: 0 0 1.8mm; }
+  ul { margin: 0 0 2mm; padding-left: 4.5mm; }
+  li { margin-bottom: 0.8mm; }
+  .src { font-size: 7.6pt; color: #555; line-height: 1.35; }
+  .box { border: 1px solid #1f3a5f; background: #f4f7fb; padding: 2.4mm 3mm; margin: 2mm 0 2.5mm; }
+  .grid3 { display: flex; gap: 2.5mm; margin: 2mm 0 2.5mm; }
+  .grid3 > div { flex: 1; border: 1px solid #1f3a5f; padding: 2.2mm 2.6mm; background: #fff; }
+  .grid3 .big { font-size: 15pt; font-weight: bold; color: #b3261e; line-height: 1.2; }
+  .grid3 .lv { font-size: 8.4pt; color: #1f3a5f; font-weight: bold; }
+  table.cmp th, table.cmp td { font-size: 8.8pt; padding: 1.4mm 2mm; }
+  table.cmp td { vertical-align: top; }
+  .center { text-align: center; }
+  .small { font-size: 8.4pt; }
+  .blank { color: #888; }
+</style>
+</head>
+<body>
+
+<!-- ===================== PAGE 1 : 표지 ===================== -->
+<div class="page">
+  <div class="tag">[양식-1]</div>
+  <h1>지역 현안 해결 아이디어 제안서</h1>
+
+  <table>
+    <tr><th style="width:24mm">아이디어<br>주제</th>
+        <td><b>서울 서북권 고령자 폭염보행 체감열 지도·그늘배치</b><br><span class="small">(대상 지역: 서울특별시 — 은평구·서대문구 시범)</span></td></tr>
+    <tr><th>아이디어<br>소개</th>
+        <td style="height:62mm; vertical-align:top; line-height:1.6">
+          서울시는 보도 4,031km의 그늘을 분석(‘그늘보행권’)하고 그늘막·쉼터를 늘리고 있지만, <b>그늘 면적은 고령자가 길 위에서 실제로 겪는 더위와 같지 않습니다.</b>
+          아스팔트 복사열·습도·경사·쉼터 간격이 빠져 있고, 센서는 보도 3.4km당 1대꼴로 드물어 골목 단위 열 격차는 측정되지 않습니다.<br><br>
+          본 제안은 은평·서대문 산자락 노후 주거지를 시범지로, <b>① 주민 참여형 저가 휴대 센서 실측 + 공공 S-DoT + 위성 열적외 + AI로 보도 단위 ‘체감열 지도’</b>를 만들고,
+          <b>② 고령자의 경사·휴식 간격을 반영한 ‘열위험 점수’</b>를 산출해, <b>③ 열 안전 경로 안내와 그늘·쉼터 설치 우선순위(효과 사전 시뮬레이션), 사업 전후 효과 검증</b>까지 이어지는 의사결정 도구를 제안합니다.<br><br>
+          <b>기대효과:</b> 같은 예산으로 더 많은 고령자의 열노출을 줄이고, 서울시 그늘보행권 시범사업(2026~27)·2028 전역 확대의 후보지 선정과 효과 검증 방법으로 활용됩니다.
+        </td></tr>
+    <tr><th>현안 분야<br><span class="small">(해당 ∨)</span></th>
+        <td>☑ 안전 &nbsp; ☑ 건강·복지 &nbsp; □ 교통 &nbsp; ☑ 환경·기후 &nbsp; □ 산업·경제 &nbsp; □ 생활편의 &nbsp; □ 기타</td></tr>
+  </table>
+
+  <table style="margin-top:3mm">
+    <tr><th rowspan="4" style="width:24mm">대표자</th>
+        <th style="width:20mm">성 명</th><td class="blank">[입력]</td>
+        <th style="width:22mm">생년월일</th><td class="blank">[yyyy.mm.dd.]</td></tr>
+    <tr><th>휴대전화</th><td class="blank">[입력]</td>
+        <th>참여형태</th><td>☑ 개인 &nbsp; □ 팀</td></tr>
+    <tr><th>직 업</th><td class="blank">[입력]</td>
+        <th>e-mail</th><td class="blank">[입력]</td></tr>
+    <tr><th>주 소</th><td colspan="3" class="blank">[입력]</td></tr>
+  </table>
+
+  <table style="margin-top:3mm">
+    <tr><th rowspan="4" style="width:24mm">팀원<br><span class="small">(해당시)</span></th>
+        <th>구분</th><th>성명</th><th>생년월일</th><th>연락처</th><th>소속</th></tr>
+    <tr><td class="center">팀원1</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="center">팀원2</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td class="center">팀원3</td><td></td><td></td><td></td><td></td></tr>
+  </table>
+
+  <div style="margin-top:7mm; text-align:center; line-height:1.7">
+    본인은 「지역 현안 해결 솔루션 챌린지」 관련 작성한 내용에 허위가 없음을 확약하며,<br>
+    유의사항을 충분히 숙지하였고 챌린지 진행에 필요한 요구사항에 성실히 응할 것에 동의합니다.<br><br>
+    2026년 &nbsp;&nbsp;&nbsp; 월 &nbsp;&nbsp;&nbsp; 일<br><br>
+    성명: ____________________ &nbsp; (서명 또는 인)
+  </div>
+  <div style="text-align:center; font-weight:bold; font-size:12pt; margin-top:7mm">한국과학기술기획평가원 귀하</div>
+</div>
+
+<!-- ===================== PAGE 2 : 현안 정의 ===================== -->
+<div class="page">
+  <div class="sec-title">1. 현안 정의 (현황 및 필요성)</div>
+
+  <div class="sub">① 폭염 위험은 ‘길 위’에서, 고령자에게 집중된다</div>
+  <ul>
+    <li>2023~2025년 서울 온열질환자 815명 중 <b>31.4%가 길가에서 발생</b>해 장소별 1위였습니다.<sup>[1]</sup></li>
+    <li>2025년 전국 온열질환자는 4,460명, 사망 29명이며 <b>사망자의 62.1%가 60세 이상</b>이었습니다(질병관리청 발표).<sup>[2]</sup></li>
+    <li>서울의 65세 이상 인구는 19.4%(2024.12), <b>은평구 21.2%로 초고령사회, 서대문구 19.7%</b>입니다.<sup>[3]</sup></li>
+  </ul>
+
+  <div class="sub">② 서울시는 이미 크게 대응 중이다 — 그러나 ‘무엇을 기준으로 어디에’가 남는다</div>
+  <ul>
+    <li>2026년 무더위쉼터 4,078개소, 그늘막 약 5,000개, 쿨링포그 235개소 운영.<sup>[4]</sup></li>
+    <li>2026.8 ‘그늘보행권’ 선언: 보도 6만 7,029곳(4,031km)을 1m 단위로 분석(2025.7.28 10:00~17:30 기준). 평균 햇빛 노출 4시간 21분, 그늘 비율 44.4%, <b>보도의 27.6%는 6시간 이상 직사광선</b>에 노출. 2026~27 생활가로 10곳 시범 → 2028 전역 확대.<sup>[1]</sup></li>
+    <li>시범지 선정 기준은 햇빛 노출시간·보행자 수·고령인구·그늘 단절·설치 가능성이며, 사업 전후 그늘 면적과 체감온도를 측정할 계획입니다.<sup>[1][5]</sup></li>
+  </ul>
+
+  <div class="sub">③ 그럼에도 해결되지 않는 이유 (기존 방식의 한계)</div>
+  <table class="cmp">
+    <tr><th style="width:30mm">한계</th><th>내용</th></tr>
+    <tr><td><b>그늘 ≠ 시원함</b></td>
+        <td>그늘 면적은 기하(햇빛이 드는가) 기준입니다. 아스팔트 복사열·벽면 반사열·습도가 만드는 <b>‘체감열’</b>은 기온과 다르고, 그늘 안에서도 높을 수 있습니다.</td></tr>
+    <tr><td><b>측정이 드물다</b></td>
+        <td>서울 S-DoT 센서는 약 1,170대로 보도 4,031km 대비 <b>3.4km당 1대</b>(단순 산술)입니다.<sup>[6]</sup> 동(洞) 단위 체감온도는 잡히지만(아래 지역적 특성 참조) <b>골목·보도 단위</b>는 시뮬레이션에 의존합니다.</td></tr>
+    <tr><td><b>보행자를 ‘평균’으로 본다</b></td>
+        <td>같은 그늘길이라도 경사·계단·휴식 지점 간격에 따라 80대에게는 위험도가 다릅니다. 지자체 지표에는 고령인구 수가 들어가지만, <b>고령자의 실제 보행 동선과 열노출량</b>은 계산되지 않습니다.</td></tr>
+    <tr><td><b>개인 안내와 정책이 따로</b></td>
+        <td>민간 앱(예: ‘그늘로’)은 건물 그림자 기반 그늘 경로 추천에 집중하고,<sup>[7]</sup> 서울시 분석은 시설 확대 계획입니다. “<b>한정된 예산으로 어느 지점에 무엇을 놓아야 노출이 가장 줄어드는가</b>”를 실측으로 보정해 답하고, <b>설치 후 효과를 같은 방법으로 검증</b>하는 연결 고리가 없습니다.</td></tr>
+  </table>
+
+  <div class="box"><b>→ 필요성:</b> 시설을 늘리는 단계에서, <b>‘어디가 실제로 가장 위험한가’를 실측으로 찾고 ‘놓은 뒤 줄었는가’를 확인하는 과학적 의사결정 기반</b>이 필요합니다. 폭염은 해마다 반복·심화되고 고령화는 빨라지므로, 방치하면 길 위 온열질환이 고령층에 집중되는 구조가 굳어집니다.</div>
+
+  <div class="src">
+    [1] 서울시 ‘그늘보행권’ 발표(2026.8.19), 헤럴드경제·뉴시스 등 보도 &nbsp;[2] 질병관리청 2025 온열질환 감시결과(언론 보도 인용) &nbsp;[3] 아시아투데이 2025.1.30(서울 자치구별 노인인구 비율, 2024.12 기준) &nbsp;[4] 서울시 2026 폭염 대책(서울신문·머니투데이 2026.5.28) &nbsp;[5] MTN 2026.8.19 &nbsp;[6] 서울 열린데이터광장 S-DoT(센서 수는 보도 기준, 정확한 현황 확인 필요) &nbsp;[7] 뉴시스 2026.8.6
+  </div>
+</div>
+
+<!-- ===================== PAGE 3 : 지역적 특성 ===================== -->
+<div class="page">
+  <div class="sec-title">2. 지역적 특성 (현안 관련)</div>
+
+  <div class="sub">① 구 → 동 → 골목, 단위가 작아질수록 격차가 드러난다 — 그런데 정책 지표는 ‘구·동’ 해상도</div>
+  <div class="grid3">
+    <div><div class="lv">구(區) 단위</div><div class="big">4.8℃</div>
+      2026.8.3~5 서울 최고기온: 구로 39.0℃ vs <b>서대문 34.2℃</b>.<sup>[8]</sup> 서대문·은평은 북한산·안산 녹지 덕에 <b>구 평균은 낮은 편</b>.</div>
+    <div><div class="lv">행정동 단위</div><div class="big">59일 vs 4일</div>
+      S-DoT로 365개 행정동 체감온도 분석 시 폭염일수 합정동 59일, 개포3동 4일(<b>약 14배</b>).<sup>[9]</sup></div>
+    <div><div class="lv">골목·주택 단위</div><div class="big">35℃ → 45℃+</div>
+      서울 최고 35℃였던 날 <b>홍제동 개미마을</b> 현장 기온이 45℃를 넘김. 에어컨 없는 78세 어르신 집은 20분 만에 37.8℃.<sup>[9]</sup></div>
+  </div>
+  <p class="small">→ 서북권은 <b>“구 평균으로는 안전해 보이지만 동네 안에는 뜨거운 곳이 숨어 있는”</b> 대표 사례입니다. 구·동 해상도 지표로는 이 지역 고령자의 위험이 과소평가되기 쉽습니다.</p>
+
+  <div class="sub">② 서북권(은평·서대문)이 시범지로 적합한 이유</div>
+  <ul>
+    <li><b>산자락 노후 주거지 + 고령층:</b> 홍제동 개미마을(‘서울의 마지막 달동네’)처럼 언덕·계단이 많고 냉방이 취약한 주택이 밀집. 은평구 고령 비율 21.2%(초고령), 서대문구 19.7%.<sup>[3][9]</sup></li>
+    <li><b>쉼터가 멀다:</b> 국립재난안전연구원 분석(2026.8.5, 100m 격자)에서 은평구는 <b>쉼터까지 15분 넘게 걸리는 지역</b>으로 지목.<sup>[10]</sup> 서울시의회 연구단체 기후취약성지수(SCVI)에서 은평구 0.720으로 <b>A등급(매우 높음)</b>.<sup>[11]</sup></li>
+    <li><b>이동 수요가 뚜렷:</b> 경로당·시장·병원·지하철역 등 고령자의 반복 동선이 비교적 명확해 노출 평가에 유리.</li>
+    <li><b>실증 접근성:</b> 제안자는 대상지 인접 거주자로 반복 현장 측정과 주민 모집이 가능(리빙랩 방식).</li>
+  </ul>
+
+  <div class="sub">③ 시급한 이유 / 방치 시 문제</div>
+  <ul>
+    <li>폭염 대응 시설은 2026년에도 계속 늘고 있고, 2028 전역 확대를 앞둔 <b>2026~2027년이 ‘어디에 놓을지’ 기준을 정하는 시기</b>입니다. 이때 기준에 실측이 반영되지 않으면 취약 동네가 후순위로 밀릴 수 있습니다.</li>
+    <li>가장 취약한 사람(독거·저소득 고령자)은 앱을 쓰거나 스스로 쉼터를 찾기 어려울 수 있습니다. 경로 안내만으로는 부족하고, <b>길과 쉼터 자체의 개선</b>이 필요합니다.</li>
+  </ul>
+
+  <div class="sub">④ 현재 시행 중인 제도와 해결되지 않는 부분</div>
+  <table class="cmp">
+    <tr><th style="width:36mm">제도·서비스</th><th>해결하는 것</th><th>남는 것</th></tr>
+    <tr><td>무더위쉼터 4,078곳</td><td>대피 장소 제공</td><td>쉼터까지의 <b>보행 중 위험</b>, 접근성 격차(은평 15분 초과)</td></tr>
+    <tr><td>그늘막·쿨링포그</td><td>정류장·광장 등 지점 냉각</td><td>어디가 <b>가장 효과가 큰 위치</b>인지 근거</td></tr>
+    <tr><td>그늘보행권 분석</td><td>보도 그늘 비율·노출시간(시뮬레이션)</td><td><b>실측 보정</b>, 고령 보행 특성, 사전 효과 예측</td></tr>
+    <tr><td>민간 그늘 경로 앱</td><td>개인용 그늘 경로 추천</td><td>정책 투자와의 연계, 취약계층 도달, 사후 검증</td></tr>
+  </table>
+
+  <div class="src" style="margin-top:2mm">
+    [8] 뉴스 보도(TF뉴스, 2026.8) 서울 자치구별 폭염 기온 비교 &nbsp;[9] 서울신문 ‘불평등한 폭염’(2026.8.2) — S-DoT 365개 행정동 체감온도 분석, 개미마을 사례(사진 설명 인용) &nbsp;[10] 한국일보 2026.8.5 보도(국립재난안전연구원 분석) &nbsp;[11] 경향신문 2026.8.9(서울시의회 연구단체 민생의정연구회 연구)
+  </div>
+</div>
+
+<!-- ===================== PAGE 4 : 핵심 제안 ===================== -->
+<div class="page">
+  <div class="sec-title">3. 핵심 제안 내용</div>
+
+  <p><b>“그늘이 있는가”가 아니라 “고령자가 실제로 얼마나 더운 길을 걷는가”</b>를 실측으로 계산하고, 그 결과로 <b>길을 안내하고(개인), 시설을 어디에 놓을지 정하고(지자체), 놓은 뒤 효과를 확인</b>하는 3단 구조입니다. (가칭 ‘서북 열길’)</p>
+
+  <table class="cmp">
+    <tr><th style="width:27mm">모듈</th><th>핵심 내용</th><th style="width:34mm">사용자</th></tr>
+    <tr><td><b>① 체감열 지도</b></td>
+        <td>보도를 10~50m 구간으로 나누어 시간대별 체감열(WBGT 유사 지수)을 산출. <b>주민 측정단의 휴대 센서 실측</b>으로 기하 시뮬레이션(그늘 계산)과 공공 센서(S-DoT) 값을 보정.</td>
+        <td>구청·서울시·연구진</td></tr>
+    <tr><td><b>② 고령자 열위험 점수</b></td>
+        <td>구간별 체감열 × 고령자 이용량(경로당·병원·시장·역 동선) × 경사·계단 보정 × <b>휴식 지점 간격</b>을 합산해 0~100점으로 환산. 동선(경로) 단위 노출량도 계산.</td>
+        <td>복지·안전 담당 부서</td></tr>
+    <tr><td><b>③ 열 안전 경로·설치 우선순위</b></td>
+        <td>(개인) 체감열·경사·쉼터 경유를 반영한 <b>열 안전 경로</b> 안내. (지자체) 그늘막·가로수·쉼터·쿨링 시설 후보지별로 <b>설치 시 노출 저감량을 사전 시뮬레이션</b>하고 예산 제약 아래 최적 조합 제시.</td>
+        <td>주민, 구청 도시·푸른도시 부서</td></tr>
+    <tr><td><b>④ 사업 전후 검증</b></td>
+        <td>설치 전후를 같은 방법으로 실측해 체감열 감소·고령자 노출 시간 감소·이용률을 평가 → 모델 재학습. 서울시 시범사업(전후 체감온도 측정 계획)과 <b>방법 호환</b>.</td>
+        <td>서울시·연구개발지원단</td></tr>
+  </table>
+
+  <div class="sub">차별성 — 기존과 무엇이 다른가</div>
+  <table class="cmp">
+    <tr><th style="width:27mm"></th><th>그늘보행권 분석</th><th>민간 그늘 경로 앱</th><th>본 제안</th></tr>
+    <tr><td><b>기준</b></td><td>그늘·노출시간(기하)</td><td>건물·나무 그림자</td><td><b>실측 보정 체감열</b></td></tr>
+    <tr><td><b>보행자</b></td><td>보행자 수·고령인구</td><td>일반 보행자(경사 옵션)</td><td><b>고령자 동선·휴식 간격</b></td></tr>
+    <tr><td><b>결과물</b></td><td>시범 후보지 선정</td><td>개인 경로 추천</td><td><b>경로 + 설치 우선순위 + 사전 효과 예측</b></td></tr>
+    <tr><td><b>사후</b></td><td>시범사업 전후 측정 계획</td><td>없음</td><td><b>동일 방법 전후 검증·재학습</b></td></tr>
+  </table>
+
+  <div class="sub">시범 범위와 추진 일정(안)</div>
+  <ul>
+    <li><b>시범 범위:</b> 은평구·서대문구 산자락 인접 2~4개 동의 지하철역~경로당·병원·시장 동선 보도 약 20km(안).</li>
+    <li><b>2026.10~11 공동기획:</b> 서울 연구개발지원단과 시범 구간, 측정 프로토콜, 평가 지표 확정.</li>
+    <li><b>2027 상반기:</b> 주민 측정단 모집·센서 제작·1차 측정, 모델 구축. <b>7~8월 폭염기 집중 측정</b>과 경로·우선순위 시범 운영.</li>
+    <li><b>2027 하반기:</b> 서울시 그늘보행권 시범 구간·구청 시설 사업과 연계해 <b>전후 검증</b>, 타 구 확대 설계.</li>
+  </ul>
+</div>
+
+<!-- ===================== PAGE 5 : 과학적 접근방법 ===================== -->
+<div class="page">
+  <div class="sec-title">4. 과학적 접근방법</div>
+
+  <svg viewBox="0 0 700 330" width="100%" xmlns="http://www.w3.org/2000/svg" font-family="Malgun Gothic, sans-serif">
+    <defs><marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#1f3a5f"/></marker></defs>
+    <g font-size="11.5">
+      <!-- column titles -->
+      <text x="75" y="16" text-anchor="middle" font-weight="bold" fill="#1f3a5f">① 데이터</text>
+      <text x="270" y="16" text-anchor="middle" font-weight="bold" fill="#1f3a5f">② 체감열 모델</text>
+      <text x="465" y="16" text-anchor="middle" font-weight="bold" fill="#1f3a5f">③ 열위험 점수</text>
+      <text x="630" y="16" text-anchor="middle" font-weight="bold" fill="#1f3a5f">④ 활용</text>
+
+      <!-- inputs -->
+      <rect x="5" y="26" width="140" height="42" rx="5" fill="#eef3fa" stroke="#1f3a5f"/><text x="75" y="44" text-anchor="middle">공공 센서(S-DoT)</text><text x="75" y="60" text-anchor="middle" font-size="9.5" fill="#444">기온·습도 (열린데이터광장)</text>
+      <rect x="5" y="76" width="140" height="42" rx="5" fill="#eef3fa" stroke="#1f3a5f"/><text x="75" y="94" text-anchor="middle">보도·건물·가로수·경사</text><text x="75" y="110" text-anchor="middle" font-size="9.5" fill="#444">공간정보·수치표고(DEM)</text>
+      <rect x="5" y="126" width="140" height="42" rx="5" fill="#eef3fa" stroke="#1f3a5f"/><text x="75" y="144" text-anchor="middle">위성 열적외·기상</text><text x="75" y="160" text-anchor="middle" font-size="9.5" fill="#444">지표온도·일사 (공개자료)</text>
+      <rect x="5" y="176" width="140" height="48" rx="5" fill="#fff3e0" stroke="#e65100" stroke-width="1.6"/><text x="75" y="194" text-anchor="middle" font-weight="bold">주민 휴대센서 실측</text><text x="75" y="210" text-anchor="middle" font-size="9.5" fill="#444">기온·습도·흑구온도·GPS</text>
+      <rect x="5" y="232" width="140" height="42" rx="5" fill="#eef3fa" stroke="#1f3a5f"/><text x="75" y="250" text-anchor="middle">고령자 이동·시설 정보</text><text x="75" y="266" text-anchor="middle" font-size="9.5" fill="#444">경로당·병원·시장·쉼터·인구</text>
+
+      <!-- model -->
+      <rect x="190" y="26" width="160" height="92" rx="6" fill="#e8f1e4" stroke="#2e7d32"/>
+      <text x="270" y="46" text-anchor="middle" font-weight="bold">일사·그림자 시뮬레이션</text>
+      <text x="270" y="63" text-anchor="middle" font-size="9.8" fill="#333">(시간대별 그늘·복사 환경)</text>
+      <line x1="200" y1="72" x2="340" y2="72" stroke="#2e7d32" stroke-dasharray="3 3"/>
+      <text x="270" y="90" text-anchor="middle" font-weight="bold">실측 보정 머신러닝</text>
+      <text x="270" y="107" text-anchor="middle" font-size="9.8" fill="#333">(회귀·공간보간, 교차검증)</text>
+      <rect x="190" y="132" width="160" height="62" rx="6" fill="#e8f1e4" stroke="#2e7d32"/>
+      <text x="270" y="152" text-anchor="middle" font-weight="bold">체감열(WBGT 유사) 지도</text>
+      <text x="270" y="170" text-anchor="middle" font-size="9.8" fill="#333">보도 10~50m·시간대별</text>
+      <text x="270" y="185" text-anchor="middle" font-size="9.8" fill="#333">불확실도 함께 표시</text>
+
+      <!-- score -->
+      <rect x="390" y="26" width="150" height="168" rx="6" fill="#fdecea" stroke="#b3261e"/>
+      <text x="465" y="46" text-anchor="middle" font-weight="bold">고령자 열위험 점수</text>
+      <text x="465" y="68" text-anchor="middle" font-size="10">체감열</text>
+      <text x="465" y="84" text-anchor="middle" font-size="10">× 고령자 이용량</text>
+      <text x="465" y="100" text-anchor="middle" font-size="10">× 경사·계단 보정</text>
+      <text x="465" y="116" text-anchor="middle" font-size="10">× 휴식 지점 간격</text>
+      <line x1="410" y1="128" x2="520" y2="128" stroke="#b3261e" stroke-dasharray="3 3"/>
+      <text x="465" y="148" text-anchor="middle" font-weight="bold">구간 점수 0~100</text>
+      <text x="465" y="165" text-anchor="middle" font-size="10">동선(경로) 누적 노출량</text>
+
+      <!-- outputs -->
+      <rect x="570" y="26" width="125" height="50" rx="5" fill="#eef3fa" stroke="#1f3a5f"/><text x="632" y="46" text-anchor="middle" font-weight="bold">열 안전 경로</text><text x="632" y="63" text-anchor="middle" font-size="9.5" fill="#444">주민·복지관 안내</text>
+      <rect x="570" y="84" width="125" height="58" rx="5" fill="#eef3fa" stroke="#1f3a5f"/><text x="632" y="102" text-anchor="middle" font-weight="bold">설치 우선순위</text><text x="632" y="119" text-anchor="middle" font-size="9.5" fill="#444">후보지별 저감량 시뮬</text><text x="632" y="134" text-anchor="middle" font-size="9.5" fill="#444">예산 제약 최적 조합</text>
+      <rect x="570" y="150" width="125" height="44" rx="5" fill="#eef3fa" stroke="#1f3a5f"/><text x="632" y="169" text-anchor="middle" font-weight="bold">전후 효과 검증</text><text x="632" y="185" text-anchor="middle" font-size="9.5" fill="#444">동일 방법 재측정</text>
+
+      <!-- arrows -->
+      <line x1="147" y1="48" x2="188" y2="60" stroke="#1f3a5f" stroke-width="1.4" marker-end="url(#ar)"/>
+      <line x1="147" y1="98" x2="188" y2="85" stroke="#1f3a5f" stroke-width="1.4" marker-end="url(#ar)"/>
+      <line x1="147" y1="147" x2="188" y2="104" stroke="#1f3a5f" stroke-width="1.4" marker-end="url(#ar)"/>
+      <line x1="147" y1="200" x2="188" y2="112" stroke="#e65100" stroke-width="2" marker-end="url(#ar)"/>
+      <line x1="270" y1="120" x2="270" y2="130" stroke="#2e7d32" stroke-width="1.4" marker-end="url(#ar)"/>
+      <line x1="352" y1="162" x2="388" y2="130" stroke="#1f3a5f" stroke-width="1.6" marker-end="url(#ar)"/>
+      <line x1="147" y1="254" x2="388" y2="170" stroke="#1f3a5f" stroke-width="1.4" marker-end="url(#ar)"/>
+      <line x1="542" y1="60" x2="568" y2="52" stroke="#1f3a5f" stroke-width="1.6" marker-end="url(#ar)"/>
+      <line x1="542" y1="110" x2="568" y2="112" stroke="#1f3a5f" stroke-width="1.6" marker-end="url(#ar)"/>
+      <line x1="542" y1="160" x2="568" y2="168" stroke="#1f3a5f" stroke-width="1.6" marker-end="url(#ar)"/>
+
+      <!-- feedback loop -->
+      <path d="M632,196 L632,300 L270,300 L270,196" fill="none" stroke="#e65100" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#ar)"/>
+      <text x="450" y="294" text-anchor="middle" font-size="10.5" fill="#e65100" font-weight="bold">설치 후 재측정 → 모델 재학습·보정 (폐루프)</text>
+
+      <text x="5" y="322" font-size="9.5" fill="#555">※ 주황색: 본 제안의 핵심 추가 요소(주민 참여 실측). 실측이 보정 정답값(ground truth)과 사후 검증 데이터를 겸함.</text>
+    </g>
+  </svg>
+
+  <div class="sub">현장 이용 과정 (쉬운 설명)</div>
+  <ul>
+    <li><b>측정(주민 측정단):</b> 시니어 일자리·청년·학생이 정해진 동선을 걸으며 휴대 센서(기온·습도·흑구온도·GPS)로 기록. 오전·정오·오후 반복 측정 → 기하 시뮬레이션이 놓치는 복사열·반사열을 보정하는 정답 데이터가 됩니다.</li>
+    <li><b>모델:</b> 일사·그림자 시뮬레이션 값 + 공공 센서·위성 + 실측을 입력으로 보도 구간별 체감열을 추정. <b>검증:</b> 측정 구간 일부를 떼어 두고 오차(RMSE)를 평가(목표 ±1.5℃ 이내, 안)하며 불확실도가 큰 구간은 추가 측정 대상으로 표시.</li>
+    <li><b>점수·최적화:</b> 고령자 이용량·경사·휴식 간격으로 열위험 점수를 계산하고, 후보 시설(그늘막·가로수·쉼터·쿨링)을 가정해 노출 저감량을 재계산 → 예산 제약 아래 <b>저감량이 큰 순서</b>로 조합 제시(그리디·정수계획).</li>
+    <li><b>활용:</b> 주민에게는 ‘열 안전 경로’를(스마트폰/복지관 게시), 구청에는 ‘설치 우선순위 지도’를 제공하고 설치 후 같은 방법으로 재측정해 효과를 확인합니다.</li>
+  </ul>
+
+  <div class="sub">기술 위험과 대응</div>
+  <ul>
+    <li><b>센서 품질 편차:</b> 기준 센서와 동시 측정으로 교정, 이상치 필터링. <b>개인정보:</b> 위치는 구간 단위로 집계, 측정단 동의서 수령. <b>폭염 중 안전:</b> 측정은 단시간·교대·음수 휴식 원칙(측정자 안전수칙 별도).</li>
+    <li><b>일반화 한계:</b> 한 지역 모델이 타 지역에 그대로 맞지 않을 수 있어, 확산 시 지역별 소량 실측으로 재보정하는 절차를 포함합니다.</li>
+  </ul>
+</div>
+
+<!-- ===================== PAGE 6 : 기대효과 및 확산 ===================== -->
+<div class="page">
+  <div class="sec-title">5. 기대 효과 및 연계·확산 방안</div>
+
+  <div class="sub">① 국민 생활에 주는 효과</div>
+  <ul>
+    <li><b>안전:</b> 길 위 온열질환 위험이 큰 구간을 먼저 개선해 고령자의 외출·이동 중 위험을 줄입니다(서울 온열질환의 31.4%가 길가 발생).</li>
+    <li><b>형평성:</b> 구·동 평균에 가려졌던 산자락 노후 주거지·독거 고령자를 지표에서 ‘보이게’ 만들어 시설이 후순위로 밀리는 것을 막습니다.</li>
+    <li><b>예산 효율:</b> 같은 시설 수로 더 큰 노출 저감을 내도록 위치를 정하고, 설치 후 효과를 확인해 <b>효과 없는 투자를 줄입니다</b>.</li>
+    <li><b>시민 참여:</b> 시니어·청년·학생이 측정에 참여해 일자리·환경교육·정책 신뢰를 함께 얻습니다(리빙랩).</li>
+  </ul>
+
+  <div class="sub">② 성과 지표 (안)</div>
+  <table class="cmp">
+    <tr><th style="width:38mm">지표</th><th>측정 방법</th><th style="width:40mm">목표(안)</th></tr>
+    <tr><td>체감열 지도 정확도</td><td>보류 구간 실측 대비 RMSE</td><td>±1.5℃ 이내</td></tr>
+    <tr><td>열위험 상위 구간 개선</td><td>설치 전후 체감열·고령자 노출시간 비교</td><td>시범 구간 노출시간 감소</td></tr>
+    <tr><td>설치 효율</td><td>시설당 노출 저감량(기존 배치안 대비)</td><td>기존 대비 향상</td></tr>
+    <tr><td>참여·활용</td><td>측정단 인원, 경로 이용, 구청 활용 사례</td><td>시범기간 중 구청 1건 이상 반영</td></tr>
+  </table>
+
+  <div class="sub">③ 타 지역 연계·확산</div>
+  <ul>
+    <li><b>서울 내부:</b> 서울시 그늘보행권 2026~27 시범 구간·2028 전역 확대와 연계해, <b>후보지 선정과 사업 전후 검증의 표준 방법</b>으로 제공. 은평·서대문 시범 후 강북·도봉·중랑·금천 등 고령·취약 자치구로 확대(SCVI A등급 자치구).</li>
+    <li><b>타 시도:</b> 입력 데이터가 공공 센서·공간정보·위성 중심이라 이식이 쉽고, 지역별 소량 실측만 추가하면 대구·광주 등 폭염 도시, 지방 도시 노후 주거지에도 적용 가능.</li>
+    <li><b>정책 연계:</b> 데이터·모델은 공개 API/오픈 포맷으로 제공해 지자체 도시계획·복지 부서가 활용(그늘보행권 지구단위계획·정비사업 반영 시 근거 자료).</li>
+  </ul>
+
+  <div class="sub">④ 후속 R&D·실증 연계(2027~)</div>
+  <ul>
+    <li>저가 체감열 센서·측정 프로토콜 표준화, 실측 보정 모델 고도화(드론 열화상 보강), 설치 효과 예측 정확도 향상, 폭염 이외 한파·미세먼지 등 <b>보행 환경 위험지도로 확장</b>.</li>
+  </ul>
+
+  <div class="box"><b>한 줄 요약:</b> 서울시가 ‘그늘이 있는 길’을 늘리는 단계라면, 본 제안은 <b>‘가장 위험한 길을 실측으로 찾아 효과가 가장 큰 곳에 놓고, 놓은 뒤 줄었는지 확인하는 방법’</b>을 서북권에서 먼저 검증해 서울 전역과 전국으로 넓힙니다.</div>
+
+  <div class="src">
+    ※ 수치는 2026.5~8월 언론 보도 및 서울시·질병관리청·국립재난안전연구원 발표를 인용했으며, 제출 전 원문 재확인 대상입니다. 목표치·시범 범위·일정은 연구개발지원단과 공동기획 과정에서 조정되는 제안(안)입니다.
+  </div>
+</div>
+
+</body>
+</html>
