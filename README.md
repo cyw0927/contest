@@ -9,6 +9,7 @@
 | 2026 | [외교부 제2회 KOREAZ 콘텐츠 공모전](contests/2026-koreaz-2/README.md) | 2036: TERMS & CONDITIONS | 90초 제작 설계·비주얼 검증 | 2026-10-25 |
 | 2026 | [과기정통부 제1회 지역 현안 해결 솔루션 챌린지](contests/2026-regional-solution-challenge/README.md) | 서울 서북권 고령자 폭염보행 체감열 지도·그늘배치 | 제안서 초안 완료·수치 대조 | 2026-10-11 |
 | 2026 | [제주관광공사 2026 제주 관광 데이터 활용사례 공모전](contests/2026-jeju-tourism-data/README.md) | (주제 미정) | 공고 분석 완료·주제 설계 전 | 2026-10-31 |
+| 2026 | [aT 2026 AI 농산물 가격예측 온라인 해커톤](contests/2026-at-nongnet-hackathon/README.md) | 공급 국면을 읽고 이유까지 보여주는 가격예보 | 예선 기술서 초안 완료·접수번호 대기 | 2026-10-18 |
 
 ## 구조
 
