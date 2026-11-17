@@ -6,6 +6,7 @@
 
 | 연도 | 공모전 | 작품 | 상태 | 마감 |
 | --- | --- | --- | --- | --- |
+| 2026 | [서울관광 프롬프톤](contests/2026-seoul-tourism-promptathon/README.md) | ReRoute Seoul | 개발 기획 초안·공식 조건 확인 중 | 2026-11-29 |
 | 2026 | [외교부 제2회 KOREAZ 콘텐츠 공모전](contests/2026-koreaz-2/README.md) | 2036: TERMS & CONDITIONS | 90초 제작 설계·비주얼 검증 | 2026-10-25 |
 | 2026 | [과기정통부 제1회 지역 현안 해결 솔루션 챌린지](contests/2026-regional-solution-challenge/README.md) | 서울 서북권 고령자 폭염보행 체감열 지도·그늘배치 | 제안서 초안 완료·수치 대조 | 2026-10-11 |
 | 2026 | [제주관광공사 2026 제주 관광 데이터 활용사례 공모전](contests/2026-jeju-tourism-data/README.md) | (주제 미정) | 공고 분석 완료·주제 설계 전 | 2026-10-31 |
